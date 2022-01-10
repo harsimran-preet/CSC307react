@@ -7,8 +7,7 @@ function Table(props) {
       <TableBody characterData={props.characterData} removeCharacter={props.removeCharacter} />
     </table>
   );
-    }
-function TableHeader()  {
+  function TableHeader()  {
     return (
       <thead>
         <tr>
@@ -37,5 +36,7 @@ function TableHeader()  {
          </tbody>
      );
   }
+
+    }
 
 export default Table;
