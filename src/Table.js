@@ -1,13 +1,13 @@
 import React from 'react'
 
-function Table (props) {
+function Table(props) {
   return (
     <table>
       <TableHeader />
       <TableBody characterData={props.characterData} removeCharacter={props.removeCharacter} />
     </table>
   );
-}
+    }
 function TableHeader()  {
     return (
       <thead>
